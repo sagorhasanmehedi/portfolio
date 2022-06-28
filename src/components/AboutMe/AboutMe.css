@@ -1,0 +1,117 @@
+.aboutMe-bg {
+  background-color: black;
+  padding: 50px 1px;
+}
+.section-title h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 0.1rem solid hsla(0, 0%, 100%, 0.26666666666666666);
+}
+.section-title h1 span {
+  color: #5c10e3;
+}
+
+.about-photo {
+  background-color: hsla(0, 0%, 100%, 0.26666666666666666);
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+  position: relative;
+}
+
+.about-photo::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 300%;
+  left: -70%;
+  top: -100%;
+  background-color: #5c10e3;
+  transform: rotate(45deg);
+}
+
+.about-photo img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.about-pra {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+}
+
+.mybtn {
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: 3px solid #5c10e3;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.personal-info p {
+  font-size: 18px;
+  color: #5c10e3;
+}
+.personal-info p span {
+  font-weight: bolder;
+  color: white;
+}
+
+.single-counter {
+  text-align: center;
+  box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+  border-radius: 10px;
+  padding: 30px 20px 26px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in;
+  background-color: #1e1e1e;
+}
+.single-counter img {
+  display: block;
+  max-width: 80px;
+  margin: 0 auto 21px;
+}
+.single-counter:hover {
+  transform: translateY(-12px);
+}
+
+.about-image {
+  height: 50%;
+}
+
+ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.social-margin {
+  margin-left: 240px;
+}
+.resumi-social-button {
+  display: flex !important;
+  align-items: center !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-margin {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .resumi-social-button {
+    margin-top: 15px;
+    flex-direction: column !important;
+  align-items: flex-start !important;
+  }
+}

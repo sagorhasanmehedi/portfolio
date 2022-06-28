@@ -1,0 +1,68 @@
+.portfolio-bg{
+    background-color: black;
+    padding: 50px 1px;
+}
+
+
+
+.item-thumbnail {
+    position: relative;
+    overflow: hidden;
+  }
+.item-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .item-thumbnail .content-overlay {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    width: 10%;
+    height: 86%;
+    border-radius: 10px;
+    opacity: 0;
+    background: #eeeeee;
+    transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  }
+.item-thumbnail .content-overlay .content .links {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in;
+  }
+  .item-thumbnail .content-overlay .content .links a {
+    margin: 4px;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    box-shadow: -4px -4px 10px 0px #fff9, -4px -4px 5px 0px #fff9, 4px 4px 10px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1), inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px rgba(0, 0, 0, 0.1), inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+.item-thumbnail .content-overlay .content .links a:hover {
+    box-shadow: 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #fff9, 0px 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 0px rgba(0, 0, 0, 0.1), inset -4px -4px 10px 0px #fff9, inset -4px -4px 5px 0px #fff9, inset 4px 4px 10px 0px rgba(0, 0, 0, 0.1), inset 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+   
+  }
+  .item-thumbnail .content-overlay .content .links a.image-preview {
+    margin-right: 12px;
+  }
+  .item-thumbnail:hover .content-overlay {
+    opacity: 1;
+    width: 90%;
+  }
+  .item-thumbnail:hover .content-overlay .content .links {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .details-button{
+      margin-top:110px;
+  }
