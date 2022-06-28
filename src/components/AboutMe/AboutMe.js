@@ -5,6 +5,7 @@ import aboutIcon1 from "../../images/about-icon1.png";
 import aboutIcon2 from "../../images/about-icon2.png";
 import aboutIcon3 from "../../images/about-icon3.png";
 import aboutIcon4 from "../../images/about-icon4.png";
+import resume from "../../images/pdf/Mehedi_Hasan_RESUME.pdf"
 
 const AboutMe = () => {
   return (
@@ -54,7 +55,8 @@ const AboutMe = () => {
                       <span>Age: </span> 26
                     </p>
                     <p>
-                      <span>Mail: </span>hossenmahmud15@gmail.com
+                      <span>Mail: </span>mehedihasansagor1995@gmail.com
+
                     </p>
                   </div>
                 </div>
@@ -63,7 +65,8 @@ const AboutMe = () => {
                 <div className="download-cv">
                   <a
                     className="mybtn"
-                    href="https://drive.google.com/file/d/1Z88kiOvH3BSnlccvFpwkTRUrJVXB3Znk/view?usp=sharing"
+                    download="Mehedi Hasan Resume" href={resume}
+                   
                   >
                     Download Resume
                   </a>

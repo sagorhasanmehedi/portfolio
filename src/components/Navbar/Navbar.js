@@ -1,5 +1,9 @@
 import React from "react";
 import "./Navbar.css";
+import resume from "../../images/pdf/Mehedi_Hasan_RESUME.pdf"
+
+
+
 const Navbar = () => {
   return (
     <div className="navbar-bg">
@@ -48,7 +52,8 @@ const Navbar = () => {
                   <a
                     className="nav-link text-white"
                     aria-current="page"
-                    href="https://drive.google.com/file/d/1Z88kiOvH3BSnlccvFpwkTRUrJVXB3Znk/view?usp=sharing"
+                    download="Mehedi Hasan Resume" href={resume}
+                    
                   >
                     Download Resume
                   </a>

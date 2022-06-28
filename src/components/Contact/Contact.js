@@ -33,7 +33,7 @@ const Contact = () => {
                   <span style={{ color: "#5c10e3" }} className="fw-bold">
                     Address:{" "}
                   </span>
-                  Dhanmondi, Dhaka-1207
+                  61/A Lake Circus Rd, Kolabagan, Dhaka-1207
                 </p>
                 <div className="social-icon text-start">
                   <ul>
