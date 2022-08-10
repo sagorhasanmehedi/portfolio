@@ -86,7 +86,7 @@ const Portfolio = () => {
                   <div className="links">
                     <a
                       rel="noopener noreferrer"
-                      href="https://pick-a-book--v1.firebaseapp.com/"
+                      href="https://pick-a-book.rpi.gov.bd/"
                       className="link"
                       target="_blank"
                     >

@@ -5,7 +5,7 @@ import aboutIcon1 from "../../images/about-icon1.png";
 import aboutIcon2 from "../../images/about-icon2.png";
 import aboutIcon3 from "../../images/about-icon3.png";
 import aboutIcon4 from "../../images/about-icon4.png";
-import resume from "../../images/pdf/Mehedi_Hasan_RESUME.pdf"
+import resume from "../../images/pdf/Mehedi_Web_Developer_Resume.pdf"
 
 const AboutMe = () => {
   return (

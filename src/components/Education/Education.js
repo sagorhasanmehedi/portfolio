@@ -57,10 +57,10 @@ const Education = () => {
               <div className="education-list  text-start">
                 <div className="single-education">
                   <div className="year">
-                    <span>2018-2019</span>
+                    <span>2022-PRESENT</span>
                   </div>
-                  <h4 className="university-name">Sofol Freelancer</h4>
-                  <p className="degree">Web Development</p>
+                  <h4 className="university-name">Learn With Sumit</h4>
+                  <p className="degree">Think In A Redux Way (Redux)</p>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import resume from "../../images/pdf/Mehedi_Hasan_RESUME.pdf"
+import resume from "../../images/pdf/Mehedi_Web_Developer_Resume.pdf"
 
 
 
