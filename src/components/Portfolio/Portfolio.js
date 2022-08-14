@@ -86,7 +86,7 @@ const Portfolio = () => {
                   <div className="links">
                     <a
                       rel="noopener noreferrer"
-                      href="https://pick-a-book.rpi.gov.bd/"
+                      href="http://pick-a-book.wiztecbd.online/"
                       className="link"
                       target="_blank"
                     >
