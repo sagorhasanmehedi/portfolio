@@ -82,11 +82,11 @@ const Portfolio = () => {
               <img className="img-fluid" src={work3} alt="" />
               <div className="content-overlay">
                 <div className="content">
-                  <h5 className="mt-5 fw-bold">Pick A Book</h5>
+                  <h5 className="mt-5 fw-bold">The Book Town</h5>
                   <div className="links">
                     <a
                       rel="noopener noreferrer"
-                      href="http://pick-a-book.wiztecbd.online/"
+                      href="https://thebooktown.wiztecbd.online/"
                       className="link"
                       target="_blank"
                     >
